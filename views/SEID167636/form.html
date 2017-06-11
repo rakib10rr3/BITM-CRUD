@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../resources/bootstrap/css/bootstrap.min.css">
+    <script src="../../resources/bootstrap/js/bootstrap.min.js"></script>
+    <style>
+        .main {
+            margin: 50px auto;
+            height: 400px;
+            width: 700px;
+            border: 1px solid #1b6d85;
+            box-shadow: 0 0 3px;
+            border-radius: 17px 17px 15px 15px;
+            background-color: #fdffff;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        .left {
+            float: left;
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+
+        .right {
+            float: right;
+            padding-right: 50px;
+            margin-right: 50px;
+        }
+
+        li {
+            margin: 30px 0;
+            padding: 10px;
+        }
+
+        .btn_left, .btn_right {
+            width: 130px;
+        }
+
+        .btn_left:hover {
+            background-color: white;
+            color: #46b8da;
+            transition-duration: .5s;
+        }
+        h3 {
+            text-align: center;
+            background-color: #1b6d85;
+            color: white;
+            margin: 0 auto;
+            padding: 15px;
+            border-radius: 15px 15px 0 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <h3>Home Page</h3>
+        <div class="left">
+            <ul>
+                <li><a href="BookTitle/index.php">
+                    <button class="btn btn-info btn_left">Book Title</button>
+                </a></li>
+                <li><a href="Birthday/index.php">
+                    <button class="btn btn-info btn_left">Birthday</button>
+                </a></li>
+                <li><a href="City/index.php">
+                    <button class="btn btn-info btn_left">City</button>
+                </a></li>
+                <li><a href="Gender/index.php">
+                    <button class="btn btn-info btn_left">Gender</button>
+                </a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="Hobbies/index.php">
+                    <button class="btn btn-success btn_right">Hobbies</button>
+                </a></li>
+                <li><a href="Organization/index.php">
+                    <button class="btn btn-success btn_right">Organization</button>
+                </a></li>
+                <li><a href="ProfilePicture/index.php">
+                    <button class="btn btn-success btn_right">Profile Picture</button>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
